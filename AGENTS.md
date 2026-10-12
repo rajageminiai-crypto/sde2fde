@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Contact links (WhatsApp/Instagram) are configured only in src/config/contact.ts — single place to update destinations.
+- Program content (modules, mentor, tech) lives in src/data/curriculum.ts, transcribed from the source PDF — keeps the page copy faithful and editable in one place.
